@@ -55,3 +55,6 @@ type patUrl struct {
 	Path string `yaml:"path"`
 	URL  string `yaml:"url"`
 }
+func For() string {
+	return "astana"
+}
