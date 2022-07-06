@@ -11,3 +11,8 @@ func TestFor(t *testing.T) {
 	b := "astan"
 	require.Equal(t, a, b)
 }
+func TestFor2(t *testing.T) {
+	a := For()
+	b := "astan"
+	require.Equal(t, a, b)
+}
