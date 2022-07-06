@@ -8,6 +8,6 @@ import (
 
 func TestFor(t *testing.T) {
 	a := For()
-	b := "astana"
+	b := "astan"
 	require.Equal(t, a, b)
 }
